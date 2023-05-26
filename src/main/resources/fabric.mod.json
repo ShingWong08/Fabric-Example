@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "FirstMod",
+  "version": "${version}",
+  "name": "FirstMod",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.ShingWong08.FirstMod.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
